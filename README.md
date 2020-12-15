@@ -1,32 +1,28 @@
-# ToIP  WP0020: Digital Marketplace FAQ
+# ToIP  WP0020: Digital Trust Marketplace FAQ
 
-- Authors: [your name](you@github-email) -- email is optional
+- Authors: [Darrell O'Donnell](darrell.odonnell@continuumloop.com), [RJ Reiser](rj.reiser@kabn.network), [Dan Gisolfi](dan.gisolfi@gmail.com)
 - Status: [PROPOSED](https://trustoverip.github.io/deliverables/process/lifecycle_management/#proposed)
-- Since: YYYY-MM-DD (date you submit your PR)
-- Status Note: (explanation of current status)  
-- Supersedes: (link to anything this ToIP Deliverable  supersedes)
-- Start Date: 2020-12-12 (date you started working on this idea)
-- Tags: #whitepaper, #efwg
+- Since: 2020-12-10 (date you submit your PR)
+- Status Note: _Work-in-progress_  
+- Supersedes: [2020-11-23 Market Consultation Response](https://docs.google.com/document/d/1v8tTagWy9qN9nQdCQAXX3d0j8DQSc1ky2Z31CQotv7c/edit#)
+- Start Date: 2020-11-23
+- Tags: #efwg, #communications, #whitepaper
 
 ## Summary
-
-Our goal is to drive adoption of a new model for digital trust that is every bit as interoperable as the physical wallets and paper or plastic credentials that we use every day—to do everything from getting on a plane to entering a hospital to signing a mortgage. As these new tools emerge, they will become as essential to our digital lives as browsers and email clients have become to the Web today. Interoperable solutions are paramount for a vibrant digital marketplace where consumers are free to choose the vendors and use the digital credentials they prefer.  
-ToIP aims to define a complete architecture for Internet-scale digital trust that combines cryptographic trust at the machine layer with human trust at the business, legal, and social layers. The Foundation’s mission is not to develop all of the standards or components included in the ToIP stack. It is to specify how these elements can be combined to fulfill the requirements of all four layers, bringing both governance and technology together.
+This white-paper deliverable provides ToIP Foundation answers to frequently asked questions pertinent to successful ecosystems within a digital trust marketplace.
 
 ## Purpose
 This repo manages the development and maintenance of the subject ToIP deliverable. It contains the tools necessary to generate multiple renderings formats.
 
-1. Interactive Online Website: [GitHub Pages](https://<ORG_NAME>.github.io/<REPO_NAME>/)
+1. Interactive Online Website: [GitHub Pages](https://trustoverip.github.io/WP0020-digital-trust-marketplace-faq/)
 2. Printable Documents
-    * [PDF Version](./publish/<DOC_NAME>.pdf)
-    * [HTML Version](./publish/<DOC_NAME>.html)
-    * [Standalone Markdown](./publish/<DOC_NAME>.md)
+    * [PDF Version](./publish/WP0020-digital-trust-marketplace-faq.pdf)
+    * [HTML Version](./publish/WP0020-digital-trust-marketplace-faq.html)
+    * [Standalone Markdown](./publish/WP0020-digital-trust-marketplace-faq.md)
 
 ## Contributor's Guide
-Documentation and Specification contributors should familiarize themselves with the [Authoring Process](https://github.com/trustoverip/<REPO_NAME>/blob/main/DEV_README.md).
-```
-            Replace <REPO_NAME>
-```
+Documentation and Specification contributors should familiarize themselves with the [Authoring Process](https://github.com/trustoverip/WP0020-digital-trust-marketplace-faq/blob/main/DEV_README.md).
+
 
 ## Related Resources
 

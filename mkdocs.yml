@@ -11,12 +11,14 @@
 # LIMITATIONS UNDER THE LICENSE.
 
 # Project information
-site_name: WP0020 Digital Marketplace FAQ
-site_url: https://github.com/trustoverip/WP0020-digital-trust-marketplace-faq
-site_author: Trust Over IP Ecosystem Foundry WG
+
+site_name: "ToIP Digital Trust Marketplace FAQ"
+site_url: https://trustoverip.github.io/WP0020-digital-trust-marketplace-faq
+site_author: Trust over IP Foundation
 site_description: >-
-  Trust over IP Foundation template for White Paper devoted for Frequently Asked Questions 
-  related to the digital trust marketplace
+  This whitepaper provides ToIP answers to frequently asked
+  questions pertinent to successful ecosystems within a
+  digital trust marketplace.
 
 # Repository information
 repo_name: trustoverip/WP0020-digital-trust-marketplace-faq
@@ -24,7 +26,6 @@ repo_url: https://github.com/trustoverip/WP0020-digital-trust-marketplace-faq
 
 # Content Generator Settings
 docs_dir: 'docs'
-# TODO - Is there any information about where the static HTML pages will be generated?
 site_dir: 'https://trustoverip.github.io/deliverables/results/proposed/digital-trust-marketplace-faq'
 
 # Copyright information
@@ -35,9 +36,42 @@ copyright: >-
   Projects, LLC is an affiliate of the Linux Foundation.
 
 # Navigation structure
-# nav:
-#  - Page 1: page-1.md
-#  - Page 2: page-2.md
+nav:
+- Introduction: 'index.md'
+- Ecosystems:
+    - 'What is impact of sector participation?': './ecosystems/market_demand.md'
+    - 'Do application strategies matter?': './ecosystems/application_strategies.md'
+    - 'What are the benefits of cross-industry collaboration?': './ecosystems/sector_collab_benefits.md'
+    - 'Do application strategies matter?': './ecosystems/application_strategies.md'
+    - 'What woiuld be a tactical digital wallet strategy?': './ecosystems/digital_wallet_strategy.md'
+    - 'How can ToIP aid ecosystems?': './ecosystems/toip_ecosystem_aid.md'
+    - 'What use cases are most pervasive?': './ecosystems/hi_priority_ucases.md'
+    - 'How can an ecosystem project optimize participation?': './ecosystems/ecosystem_catalyst.md'
+    - 'What are the minimum credential attributes?': './ecosystems/vcred_attributes.md'
+    - 'How can unintended consequences be avoided?': './ecosystems/social_concerns.md'
+    - 'How to mitigate privacy concerns?': './ecosystems/privacy_concerns.md'
+    - 'How can ecosystem sustainability be maintained?': './ecosystems/sustainability.md'
+- Governance:
+    - 'What is the approrpiate delineation for ecosystem oversight?': './governance/ecosystem_oversight.md'
+    - 'What regulatory changes are required?': './governance/regulatory_changes.md'
+    - 'How to identify guiding principles?': './governance/guiding_principles.md'
+    - 'What are some key operating standards?': './governance/operating_stds.md'
+    - 'How is liability shared?': './governance/sharing_liability.md'
+- Technology and Operations:
+    - 'How best to define an adoption roadmap?': './techops/adoption_roadmap.md'
+    - 'How to avoid solutions that marginalize citizens?': './techops/marginalized_citizens.md'
+    - 'What funding models have been successful?': './techops/funding_models.md'
+- Risks:
+    - 'What are the risks?': './risks/risk_mitigation.md'
+- Benefits:
+    - 'What monetization opportunities exist?': './benefits/monetization_ops.md'
+- References:
+    - 'ToIP Governance Metamodel': 'https://wiki.trustoverip.org/display/HOME/ToIP+Governance+Metamodel'
+    - 'ToIP Risk Assessment List': 'https://wiki.trustoverip.org/display/HOME/Identity+and+Verifiable+Credential+Risks?preview=%2F65735%2F65736%2FRisk+Assessment+Matrix+Template.xlsx'
+- Help:
+    - 'Acknowledgments': './acknowledgments.md'
+    - 'Contact us': 'https://trustoverip.org/about/contact/'
+
 
 # Theme configuration
 theme:
@@ -99,7 +133,7 @@ markdown_extensions:
 
 # Additional content
 extra:
-  title: 'WP0020: Digital Marketplace FAQ'
+  title: 'WP0020: Digital Trust Marketplace FAQ'
   lf_url: https://www.linuxfoundation.org/projects
   toip_url: https://trustoverip.org/
   social:
