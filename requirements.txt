@@ -11,6 +11,6 @@
 # LIMITATIONS UNDER THE LICENSE.
 
 mkdocs-enumerate-headings-plugin
-mkdocs-material
+mkdocs-material<6.2
 mkdocs-pdf-export-plugin
 pandocfilters
